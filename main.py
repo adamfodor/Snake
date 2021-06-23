@@ -27,8 +27,8 @@ def main():
         functions.menu(0, 0)
         functions.buttons(screen, 80, 350, 150, 30, active_button_colour, inactive_button_colour,"1 játékos","solo")
         functions.buttons(screen, 80, 390, 150, 30, active_button_colour, inactive_button_colour, "2 játékos","multi")
-        functions.buttons(screen, 80, 430, 150, 30, active_button_colour, inactive_button_colour, "Pontok","scores")
-        functions.buttons(screen, 80, 470, 150, 30, active_button_colour, inactive_button_colour, "Kilépés","quit")
+        #functions.buttons(screen, 80, 430, 150, 30, active_button_colour, inactive_button_colour, "Pontok","scores")
+        functions.buttons(screen, 80, 430, 150, 30, active_button_colour, inactive_button_colour, "Kilépés","quit")#(80,470,150,30)
 
         pygame.display.update()
         clock.tick(60)
